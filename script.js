@@ -18,7 +18,7 @@ function writePassword() {
 }
 
 function generatePassword() {
-  var pot = []  
+  var pot = []  //stores the confirms from user
   var length = parseInt(prompt("How long would like you password to be?"));
   if (length < 8 || length > 128) {
     return alert("invalid length");
@@ -35,18 +35,24 @@ function generatePassword() {
         return alert("You must select at least one character type.");
       }
 
-if(shouldContainLower) {
+  if(shouldContainLower) {
   pot = pot.concat(lowerCaseLetters);
 }
-if (shouldContainUpper) {
+  if (shouldContainUpper) {
   pot = pot.concat(upperCaseLetters);
 }
-if (shouldContainNumbers) {
+  if (shouldContainNumbers) {
   pot = pot.concat(numbers);
 }
-if (shouldContainCharacters) {
+  if (shouldContainCharacters) {
   pot = pot.concat(specialCharacters);
 }
+
+var passPot = []
+
+  for (var i = 0; i < length; i++) {
+    passPot.push(pot[Math.floor(math.random()*pot.length)])
+  }
 
 
 

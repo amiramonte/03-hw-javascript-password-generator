@@ -52,7 +52,6 @@ var passPot = []
 
   for (var i = 0; i < length; i++) {
     passPot.push(pot[Math.floor(Math.random()*pot.length)]);
-
   }
 
 var readyPassPot = passPot.join("");
@@ -69,10 +68,7 @@ console.log(readyPassPot);
   //convert characters from new array to string without commas - use an array join - arraynamewhereyouhaveputthecopiedrandomcharacters.join("")
   //return passwordstring from above
   //
-
-
-
-
+return readyPassPot;
 }
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);

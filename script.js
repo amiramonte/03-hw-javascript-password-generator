@@ -56,18 +56,6 @@ var passPot = []
 
 var readyPassPot = passPot.join("");
 
-console.log(readyPassPot);
-
-
-// loop through randomly length times and create copies from the pot and add to our final password
-  //for loop run as many times as user input for password length
-  //generate a random index insdie the for loop
-  //use random index to select a character from pot array
-  //push copies of random characters to new array
-  //
-  //convert characters from new array to string without commas - use an array join - arraynamewhereyouhaveputthecopiedrandomcharacters.join("")
-  //return passwordstring from above
-  //
 return readyPassPot;
 }
 // Add event listener to generate button

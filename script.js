@@ -19,7 +19,7 @@ function writePassword() {
 
 function generatePassword() {
   var pot = []  //stores the confirms from user
-  var length = parseInt(prompt("How long would like you password to be?"));
+  var length = parseInt(prompt("Enter a password length between 8 and 128 characters"));
   if (length < 8 || length > 128) {
     return alert("invalid length");
   }

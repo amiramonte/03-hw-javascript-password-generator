@@ -51,10 +51,10 @@ function generatePassword() {
 var passPot = []
 
   for (var i = 0; i < length; i++) {
-    passPot.push(pot[Math.floor(math.random()*pot.length)])
+    passPot.push(pot[Math.floor(Math.random()*pot.length)])
   }
 
-
+console.log(passPot);
 
 
 

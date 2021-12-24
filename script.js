@@ -51,11 +51,13 @@ function generatePassword() {
 var passPot = []
 
   for (var i = 0; i < length; i++) {
-    passPot.push(pot[Math.floor(Math.random()*pot.length)])
+    passPot.push(pot[Math.floor(Math.random()*pot.length)]);
+
   }
 
-console.log(passPot);
+var readyPassPot = passPot.join("");
 
+console.log(readyPassPot);
 
 
 // loop through randomly length times and create copies from the pot and add to our final password

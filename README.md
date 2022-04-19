@@ -20,9 +20,9 @@ This application is a password generator. It is designed to provide randomly gen
 
 ## Functionality
 
-The following image shows the web application's appearance and functionality:
+The following short video shows the password generator'sfunctionality:
 
-![The Password Generator application displays a red button to "Generate Password".](./assets/03-javascript-homework-demo.png)
+![The Password Generator application displays a red button to "Generate Password".](./assets/javascript_password_generator_demo.gif)
 
 ---
 

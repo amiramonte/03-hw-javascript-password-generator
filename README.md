@@ -8,7 +8,6 @@
 - [Functionality](#functionality)
 - [Deployed Application](#deployed-application)
 - [Technologies](#technologies)
-- [Installation](#installation)
 - [Credits](#credits)
 
 ---
@@ -23,13 +22,19 @@ This application is a password generator. It is designed to provide randomly gen
 
 The following image shows the web application's appearance and functionality:
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+![The Password Generator application displays a red button to "Generate Password".](./assets/03-javascript-homework-demo.png)
 
 ---
 
 ## Deployed Application
 
 [Javascript Password Generator deployed via Github Pages](https://amiramonte.github.io/javascript-password-generator/)
+
+---
+
+## Technologies
+
+- [JavaScript](https://www.javascript.com/)
 
 ---
 

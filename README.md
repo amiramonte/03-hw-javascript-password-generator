@@ -22,7 +22,7 @@ This application is a password generator. It is designed to provide randomly gen
 
 The following short video shows the password generator's functionality:
 
-![Video demonstrating password generator functionality](assets/javascript_password_generator_demo.gif)
+![Video demonstrating password generator functionality](Assets/javascript_password_generator_demo.gif)
 
 ---
 

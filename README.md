@@ -15,7 +15,7 @@
 
 ## Description
 
-This project was built to help me learn and understand javascript.
+This application is a password generator. It is designed to provide randomly generated alphanumeric passwords of varying length, letters, numbers and special characters based on user responses. 
 
 ## User Story
 
